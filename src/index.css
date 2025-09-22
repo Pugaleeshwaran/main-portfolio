@@ -296,11 +296,59 @@ font-family: "Poppins", sans-serif;
 
 /* ---------side bar end----------------- */
 .homebg-container {
-  background-image: url(.//assetes/coding.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.7)) ,url(.//assetes/coding.jpg) ;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: brightness(0.4);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.homebg-container h3{
+  color: white;
+ font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size:60px;
+}
+.type-text{
+   color: white;
+ font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:36px;
+}
+.type-text-pin{
+  color: #f04660;
+  color: #e9b949;
+}
+.homebg-container p{
+  color: white;
+ font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:26px;
+}
+.homebg-container button{
+  background-image: linear-gradient(to right, #f04660,#e9b949);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+.homebg-container button:hover{
+  outline: #f04660;
+  outline: 3px solid #f04660;
+    outline-offset: 3px;
+  background-image: linear-gradient(#e9b949,#f04660);
 }
