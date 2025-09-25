@@ -43,21 +43,6 @@
 }
 
 
-@media screen and (max-width:1024px) {
-  .webtemplate {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "navbar navbar"
-      "main main"
-      "footer footer";
-    width: 100%;
-    overflow: hidden;
-  }
-}
-
-
-
 aside {
   grid-area: sidebar;
 }
@@ -77,6 +62,19 @@ nav {
 
 }
 
+@media screen and (max-width:1024px) {
+  .webtemplate {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "navbar navbar"
+      "main main"
+      "footer footer";
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
 nav {
   background-color: #111418;
   display: flex;
@@ -85,7 +83,7 @@ nav {
   width: 100%;
   display: none;
   position: relative;
-  z-index: 1000;
+  z-index: 100;
   padding: 10px 0;
 }
 
@@ -144,7 +142,7 @@ nav {
 }
 .mobile-nav{
   position: absolute;
-  z-index: 99;
+  z-index: 1;
   width: 100vw;
   height: 50vh;
   margin-top: 15px;
@@ -155,12 +153,12 @@ nav {
 .mobile-nav-con{
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: 100%;
   justify-content: space-between;
   align-items: center;
   background-color:#000000;
   padding:30px;
+  z-index: 4;
 }
 .mobile-nav-con a{
 color: white;
@@ -173,6 +171,9 @@ font-family: "Poppins", sans-serif;
   width: 100%;
   text-align: center;
 }
+
+
+
 @media screen and (max-width:1024px) {
   nav{
     display: flex;
@@ -181,21 +182,22 @@ font-family: "Poppins", sans-serif;
   .navbar-container {
     display: flex;
   }
-}
 
+}
 @media screen and (max-width:640px) {
   .navbar-right {
     display: none;
+  }
+  .mobilenav-container i{ 
+    display: block;
   }
 
   #nav-logo {
     display: block;
   }
-  .mobilenav-container i{
-    display: flex;
-  }
-  
+
 }
+
 
 .sidebar-container {
   display: flex;
@@ -295,6 +297,8 @@ font-family: "Poppins", sans-serif;
 
 
 /* ---------side bar end----------------- */
+
+/* ---------------type text start------------- */
 .homebg-container {
   background-image:linear-gradient(rgba(0,0,0,0.7)) ,url(.//assetes/coding.jpg) ;
   height: 100vh;
@@ -352,3 +356,214 @@ font-family: "Poppins", sans-serif;
     outline-offset: 3px;
   background-image: linear-gradient(#e9b949,#f04660);
 }
+
+
+
+@media screen and (max-width:640px) {
+.homebg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+ .homebg-container h3{
+  font-size: 46px;
+  
+ }
+ .type-text{
+  width: 100%;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .homebg-container p{
+  font-size: 16px;
+}
+}
+
+/* ------------type text end------------ */
+
+/* -------------------title start------------- */
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+}
+.title-container h2{
+  font-size: 96px;
+  color:#494E53;
+}
+.title-container p{
+  font-size: 36px;
+  position: absolute;
+  color: white;
+}
+.title-span{
+  border-bottom: #f04660 solid 5px;
+}
+
+@media screen and (max-width:640px) {
+  .about-container{
+    width: 100vw;
+  }
+.title-container h2{
+font-size: 66px;
+}
+.title-container p{
+  font-size: 26px;
+}
+}
+
+/* -------------title end ----------- */
+
+/* ----------about start-------- */
+.about-container{
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.about-content{
+  display: flex;
+  justify-content: space-evenly;
+  padding:60px;
+  gap: 20px;
+}
+.about-container-left{
+  display: flex;
+  flex-direction: column;
+}
+.about-content-left h3{
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: 15px;
+}
+.about-content-left p{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #88A3AF;
+  margin-bottom: 15px;
+}
+.about-content-name{
+  color:#F97316 ;
+}
+.about-content-right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-content-right{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.about-content-right-span{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+.download-cv{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: #F97316;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.view-cv{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 5px 15px;
+  background-color: #22C55E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width:640px) {
+  .about-content{
+  flex-direction: column;
+  padding:20px;
+}
+.about-content-left h3{
+  font-size: 26px;
+}
+}
+/* -----------about end---------- */
+/* ------------project start------------ */
+.project-container{
+  background-color: #343A40;
+}
+.project-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.project-image img{
+  width: 33.33%;
+  border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project-more{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  background-color: #1F2937;
+  padding: 10px;
+  border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project-more h3{
+   font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 26px;
+}
+.project-more p{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
+.project-more button{
+  background: linear-gradient(#f04660,#e9b949);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+
+}
+/* -------------------project end----------- */
