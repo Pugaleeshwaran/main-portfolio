@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="about-content-right">
                     <p><span className="about-content-right-span">Name:</span> Pugaleeshwaran R</p>
-                    <p className="about-content-name"><span className="about-content-right-span">email:</span> pugaleeshwaranbecse@gmail.com</p>
+                    <a className="about-content-name" href="mailto:pugaleeshwaranbecse@gmail.com"><span className="about-content-right-span">email:</span> pugaleeshwaranbecse@gmail.com</a>
                     <p><span className="about-content-right-span">Age:</span> 21</p>
 
                     <p><span className="about-content-right-span">Form:</span> Sivagangai</p>
