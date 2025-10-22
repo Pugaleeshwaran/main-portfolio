@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter"
 const Homebg = () => {
     const [text] = useTypewriter({
         words: ["I am Pugaleeshwaran", "MERN Stack Developer",
-            "Full Stack Developer", "Grapic Designer", "Professional Editor", "Java"],
+            "Full Stack WebDeveloper", "professional Editor", "Java"],
         loop: 0,
         typeSpeed: 120,
         deleteSpeed: 80,
