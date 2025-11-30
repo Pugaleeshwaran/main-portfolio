@@ -69,7 +69,7 @@ const Resume = () => {
                 </div>
             </div>
             <div className="resume-cv">
-                <a href="./file/pugal_im.pdf" download="pugal_resume">Download CV<i className="fa-solid fa-download"></i></a>
+                <a href="/file/pugal_im.pdf" download="pugal_resume.pdf">Download CV<i className="fa-solid fa-download"></i></a>
                 
             </div>
         </div>
