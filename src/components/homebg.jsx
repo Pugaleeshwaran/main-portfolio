@@ -1,4 +1,4 @@
-import Bghome from "../assetes/coding.jpg"
+import Bghome from "../assetes/coding.webp"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 const Homebg = () => {
     const [text] = useTypewriter({

@@ -1,4 +1,4 @@
-import img1 from "../images/act.png"
+import img1 from "../images/act.webp"
 import { Link } from "react-router-dom"
 const Allproject = (props) => {
     return (
