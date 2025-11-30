@@ -1,5 +1,4 @@
 import Homebg from "./components/homebg"
-import Footer from "./footer"
 import About from "./components/about"
 import Project from "./components/project"
 import Resume from "./components/resume"
