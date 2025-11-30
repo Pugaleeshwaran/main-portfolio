@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/file/(.*)", "destination": "/file/$1" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
