@@ -15,11 +15,11 @@ const handlemenu=()=>{
         </div>
 
         <div className="navbar-right">
-          <a href="#">Home</a>
-          <a href="#">About Me</a>
-          <a href="#">My Work</a>
-          <a href="#">Resume</a>
-          <a href="#">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#work">My Work</a>
+          <a href="#resume">Resume</a>
+          <a href="#here_from">Contact</a>
         </div>
       </div>
 

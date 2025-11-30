@@ -237,7 +237,7 @@ nav {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  cursor: pointer;
+cursor: default;
 }
 
 .sidebar-content a {
@@ -268,9 +268,10 @@ nav {
   border-radius: 55%;
   object-fit: cover;
   border: 5px solid #343A40;
-
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .sidebar-content {
   width: 100%;
   display: flex;
@@ -285,6 +286,13 @@ nav {
   cursor: pointer;
   color: #6e7379;
   transition: all 300ms ease-in;
+}
+
+.sidebar-content-logo a:hover {
+  background:none;
+  border-left: none;
+  padding:0;
+  width: fit-content;
 }
 
 .sidebar-content-logo i:hover {
@@ -351,7 +359,7 @@ nav {
   font-size: 26px;
 }
 
-.homebg-container button {
+.homebg-container a {
   background-image: linear-gradient(to right, #f04660, #e9b949);
   padding: 10px 25px;
   border: none;
@@ -363,9 +371,10 @@ nav {
   font-size: 20px;
   cursor: pointer;
   transition: all 500ms ease-in-out;
+  text-decoration: none;
 }
 
-.homebg-container button:hover {
+.homebg-container a:hover {
   outline: #f04660;
   outline: 3px solid #f04660;
   outline-offset: 3px;
@@ -525,6 +534,8 @@ nav {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .view-cv {
@@ -538,6 +549,8 @@ nav {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media screen and (max-width:640px) {
@@ -837,9 +850,10 @@ nav {
 }
 
 @media screen and (max-width:640px) {
-  .project-container{
+  .project-container {
     width: 100vw;
   }
+
   .project-image {
     display: flex;
     flex-direction: column;
@@ -990,9 +1004,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+
 }
 
-.resume-cv button {
+.resume-cv a {
   padding: 10px 25px;
   background-color: transparent;
   border-radius: 30px;
@@ -1003,22 +1019,27 @@ nav {
   font-size: 16px;
   cursor: pointer;
   border: #88A3AF solid 1px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .resume-cv button:hover {
   background-color: #374151;
   color: white;
 }
+
 @media screen and (max-width:1024px) {
-  .resume_container{
+  .resume_container {
     width: 100vw;
   }
 }
+
 @media screen and (max-width:640px) {
-  .resume_container{
+  .resume_container {
     width: 100vw;
   }
 }
+
 /* ---------------resume end --------------------- */
 
 /* ---------------contact us----------------- */
@@ -1155,33 +1176,41 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width:1024px) {
-  .contact-us{
+  .contact-us {
     width: 100vw;
   }
-  .contact-us-container{
+
+  .contact-us-container {
     flex-direction: column;
   }
-  .contact-details-head{
+
+  .contact-details-head {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width:640px) {
-  .contact-us{
+  .contact-us {
     width: 100vw;
   }
-  .contact-us-container{
+
+  .contact-us-container {
     flex-direction: column;
   }
-  .contact-details-head{
+
+  .contact-details-head {
     font-size: 20px;
   }
+
   .contact-details-para {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  text-wrap: wrap;
-}
-.contact-details-input input{
-  width: 100%;
-}
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-wrap: wrap;
+  }
+
+  .contact-details-input input {
+    width: 100%;
+  }
 }

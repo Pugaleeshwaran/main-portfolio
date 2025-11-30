@@ -1,7 +1,7 @@
 import Title from "./title"
 const Resume = () => {
     return (
-        <div className="resume_container">
+        <div className="resume_container" id="resume">
             <div className="resume_title">
                 <Title head={"Summary"} para1={"My"} span={"Re"} para2={"sume"} />
             </div>
@@ -69,7 +69,8 @@ const Resume = () => {
                 </div>
             </div>
             <div className="resume-cv">
-                <button>Download CV <i class="fa-solid fa-download"></i></button>
+                <a href="./file/pugal_im.pdf" download="pugal_resume">Download CV <i class="fa-solid fa-download"></i></a>
+                
             </div>
         </div>
     )

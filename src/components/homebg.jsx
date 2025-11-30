@@ -9,7 +9,7 @@ const Homebg = () => {
         deleteSpeed: 80,
     })
     return (
-        <div className="homebg-container">
+        <div className="homebg-container" id="home">
             <h3>
                 Welcome
             </h3>
@@ -22,7 +22,7 @@ const Homebg = () => {
                 <p>
                     Based in Chennai, Tamil Nadu, India.
                 </p>
-                <button>Hire Me</button>
+                <a href="#here_form">Hire Me</a>
         </div>
     )
 }
