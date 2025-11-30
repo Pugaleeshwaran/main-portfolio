@@ -19,8 +19,8 @@ const About = () => {
                     <p><span className="about-content-right-span">Age:</span> 21</p>
 
                     <p><span className="about-content-right-span">Form:</span> Sivagangai</p>
-                    <a className="download-cv" href="/file/pugal_im.pdf" download='pugal_resume.pdf'>Download CV</a>
-                    <a className="view-cv" href="/file/pugal_im.pdf" >View CV</a>
+                    <a className="download-cv" href="/file/Pugal_im.pdf" download='pugal_resume.pdf'>Download CV</a>
+                    <a className="view-cv" href="/file/Pugal_im.pdf" >View CV</a>
 
                 </div>
             </div>
