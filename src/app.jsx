@@ -1,5 +1,4 @@
 import Sidebar from "./components/sidebar";
-import Homebg from "./components/homebg";
 import Navbar from "./navbar";
 import Main from "./main";
 import Footer from "./footer";
