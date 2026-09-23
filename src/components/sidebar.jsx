@@ -1,5 +1,5 @@
 import Avather from "../assetes/avatar.webp"
-import Homebg from "./homebg"
+
 const Sidebar = () => {
     return (
         <aside className="sidebar">

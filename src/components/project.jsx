@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import Title from "./title"
 import i1 from "../assetes/amezon.webp"
 import i2 from "../images/rosewood-theme-img.png"
-import i3 from "../assetes/Home.webp"
 const Project = () => {
     return (
         <div className="project-container" id="work">

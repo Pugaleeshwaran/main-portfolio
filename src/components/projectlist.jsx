@@ -10,7 +10,6 @@ import trip from "../images/trip.webp"
 import udemy from "../images/udemy.webp"
 import weather from "../images/weather.webp"
 import rosewood from "../images/rosewood-theme-img.png"
-import { Link } from "react-router-dom"
 const Projectlist = () => {
     return (
         <div className="project-list">
