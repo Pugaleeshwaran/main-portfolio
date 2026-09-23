@@ -24,10 +24,11 @@ const Resume = () => {
                 <h3 className="resume-heading">Experience</h3>
                 <div className="resume-edu-details">
 
-                    <h3 className="resume-sub">Full stack Web developer Inten</h3>
+                    <h3 className="resume-sub">Full stack developer</h3>
                     <p className="resume-para">Nashi Informatics Solutions Private Limited</p>
-                    <p className="resume-inten-time"> August 2025 - October 2025</p>
-                    <p className="resume-inten-para">I worked as a Web Developer in Nashi Informatics Solutions Private Limited, contributing to the design and development of key event websites. My role involved creating responsive and visually engaging web pages to enhance user experience.</p>
+                    <p className="resume-inten-para">Chennai</p>
+                    <p className="resume-inten-time"> August 2025 - Present</p>
+                    <p className="resume-inten-para">I worked as a Full Stack Web Developer with hands-on experience building and maintaining scalable web applications using the MERN stack.Collaborate with team members using Git/GitHub for version control, code reviews, and feature branching workflows.Debug and troubleshoot issues across frontend and backend layers to ensure smooth application performance. </p>
 
                 </div>
             </div>
@@ -54,23 +55,29 @@ const Resume = () => {
                 <h3 className="resume-heading">Skills</h3>
                 <div className="resume-skill-details">
 
-                    <p className="resume-skills">HTML</p>
-                    <p className="resume-skills">CSS</p>
-                    <p className="resume-skills">JavaScript</p>
-                    <p className="resume-skills">React js</p>
+                    <p className="resume-skills">HTML5</p>
+                    <p className="resume-skills">CSS3</p>
+                    <p className="resume-skills">JavaScript(ES6+)</p>
+                    <p className="resume-skills">React.js</p>
                     <p className="resume-skills">Tailwind CSS</p>
                     <p className="resume-skills">BootStarp</p>
-                    <p className="resume-skills">Node js</p>
-                    <p className="resume-skills">Express js</p>
+                    <p className="resume-skills">REST API</p>
+                    <p className="resume-skills">Node.js</p>
+                    <p className="resume-skills">Express.js</p>
                     <p className="resume-skills">Mongo DB</p>
-                    <p className="resume-skills">WordPress</p>
+                    <p className="resume-skills">SQL</p>
+                    <p className="resume-skills">Redux</p>
+                    <p className="resume-skills">Firebase Auth</p>
                     <p className="resume-skills">Java</p>
-                    <p className="resume-skills">Video Editing</p>
+                    <p className="resume-skills"> Claude</p>
+                    <p className="resume-skills">ChatGPT</p>
+                    <p className="resume-skills">Google Gemini</p>
+                    <p className="resume-skills">Git & Github</p>
                 </div>
             </div>
             <div className="resume-cv">
                 <a href="/file/Pugal_im.pdf" download="pugal_resume.pdf">Download CV<i className="fa-solid fa-download"></i></a>
-                
+
             </div>
         </div>
     )
