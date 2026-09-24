@@ -57,13 +57,13 @@ const Footer = () => {
                     <div className="contact-details">
                         <h3 className="contact-details-head">FOLLOW ME</h3>
                         <div className="sidebar-content-logo">
-                            <a href="https://www.linkedin.com/in/pugaleeshwaran-r-/" target="_blank">
+                            <a href="https://www.linkedin.com/in/pugaleeshwaran-r-/" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-linkedin"></i>
                             </a>
-                            <a href="mailto:pugaleeshwaranbecse@gmail.com" target="_blank">
+                            <a href="mailto:pugaleeshwaranbecse@gmail.com" target="_blank" rel="noreferrer">
                                 <i className="fa-solid fa-envelope"></i>
                             </a>
-                            <a href="https://github.com/Pugaleeshwaran?tab=repositories" target="_blank">
+                            <a href="https://github.com/Pugaleeshwaran?tab=repositories" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-github"></i>
                             </a>
                         </div>
