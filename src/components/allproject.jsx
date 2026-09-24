@@ -3,7 +3,7 @@ const Allproject = (props) => {
     return (
         <div className="all_project">
             <div className="all_project_list">
-                <img src={props.img} alt="act-to-img" />
+                <img src={props.img} alt={props.h3} />
                 <div className="all_project_details">
                     <h3>{props.h3}</h3>
                     <p>{props.p}</p>

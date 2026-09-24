@@ -19,13 +19,13 @@ const handlemenu=()=>{
           <a href="#about">About Me</a>
           <a href="#work">My Work</a>
           <a href="#resume">Resume</a>
-          <a href="#here_from">Contact</a>
+          <a href="#here_form">Contact</a>
         </div>
       </div>
 
       <div className="mobilenav-container">
         <i className="fa-solid fa-bars" onClick={handlemenu}></i>
-        <Mobilenav style={{transform:open?"translateY(0)":"translateY(-200%)",transition: "transform 1s ease-in-out"}}/>
+        <Mobilenav onClose={()=>setopen(false)} style={{transform:open?"translateY(0)":"translateY(-200%)",transition: "transform 1s ease-in-out"}}/>
       </div>
     </nav>
   );

@@ -10,10 +10,10 @@ const Project = () => {
             </div>
             <div className="project-image">
                 <div className="project-image-div">
-                    <img src={i2} alt="tfc-img" />
+                    <img src={i2} alt="rosewood-bakery-img" />
                     <div className="project-image-div-details">
                         <h3>Rosewood — Bakery & Cake Shop</h3>
-                        <p>A premium, fully responsive bakery website template for bakeries, home bakers, cake studios, and dessert</p>
+                        <p>A premium, fully responsive bakery website template for bakeries, home bakers, cake studios, and dessert shops.</p>
                         <Link to={"https://rosewood-bakery-domo.vercel.app/"} target="_blank"> <button>Visit Site</button></Link>
                     </div>
 

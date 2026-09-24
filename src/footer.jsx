@@ -30,6 +30,7 @@ const Footer = () => {
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    alert('Sorry, your message could not be sent. Please email me at pugaleeshwaranbecse@gmail.com');
                 },
             );
     };
@@ -60,7 +61,7 @@ const Footer = () => {
                             <a href="https://www.linkedin.com/in/pugaleeshwaran-r-/" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-linkedin"></i>
                             </a>
-                            <a href="mailto:pugaleeshwaranbecse@gmail.com" target="_blank" rel="noreferrer">
+                            <a href="mailto:pugaleeshwaranbecse@gmail.com">
                                 <i className="fa-solid fa-envelope"></i>
                             </a>
                             <a href="https://github.com/Pugaleeshwaran?tab=repositories" target="_blank" rel="noreferrer">
@@ -79,11 +80,11 @@ const Footer = () => {
                         <div className="contact-details">
 
                             <div className="contact-details-input">
-                                <input type="text" name="name" placeholder="Name" />
-                                <input type="email" name="email" placeholder="Email" />
+                                <input type="text" name="name" placeholder="Name" required />
+                                <input type="email" name="email" placeholder="Email" required />
                             </div>
 
-                            <textarea name="message" placeholder="Tell us More about your Needs..." />
+                            <textarea name="message" placeholder="Tell us More about your Needs..." required />
 
                             <div className="contact-submit-btn">
                                 <input id="send_input" type="submit" value="Send Message" />

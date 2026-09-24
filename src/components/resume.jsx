@@ -60,7 +60,7 @@ const Resume = () => {
                     <p className="resume-skills">JavaScript(ES6+)</p>
                     <p className="resume-skills">React.js</p>
                     <p className="resume-skills">Tailwind CSS</p>
-                    <p className="resume-skills">BootStarp</p>
+                    <p className="resume-skills">Bootstrap</p>
                     <p className="resume-skills">REST API</p>
                     <p className="resume-skills">Node.js</p>
                     <p className="resume-skills">Express.js</p>

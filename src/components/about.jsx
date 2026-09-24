@@ -9,7 +9,7 @@ const About = () => {
             <div className="about-content">
                 <div className="about-content-left">
                     <h3>I'm <span className="about-content-name">Pugaleeshwaran </span>,MERN Full Stack <br /> Developer</h3>
-                    <p>Hi, my name is Pugaleeshwarn. Im a MERN Full Stack Developer.</p>
+                    <p>Hi, my name is Pugaleeshwaran. I'm a MERN Full Stack Developer.</p>
                     <p>I am proficient in development skills like:</p>
                     <p>HTML5, CSS3, JavaScript ES6, Bootstrap,Tailwind CSS , React.js, Node.js, Express.js, MongoDB, REST API, Redux, Java, SQL, Firebase Auth, Git, Github, WordPress.</p>
                 </div>
@@ -18,7 +18,7 @@ const About = () => {
                     <a className="about-content-name" href="mailto:pugaleeshwaranbecse@gmail.com"><span className="about-content-right-span">email:</span> pugaleeshwaranbecse@gmail.com</a>
                     <p><span className="about-content-right-span">DOB:</span> 29/05/2004</p>
 
-                    <p><span className="about-content-right-span">Form:</span> Sivagangai</p>
+                    <p><span className="about-content-right-span">From:</span> Sivagangai</p>
                     <a className="download-cv" href="/file/Pugal_im.pdf" download='pugal_resume.pdf'>Download CV</a>
                     <a className="view-cv" href="/file/Pugal_im.pdf" >View CV</a>
 
