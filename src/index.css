@@ -795,7 +795,7 @@ html {
   font-style: normal;
   cursor: pointer;
   transition: all 100ms ease;
-
+  border: 3px solid #f04660;
 }
 
 .all_project_details button:hover {
@@ -1180,7 +1180,7 @@ html {
 }
 
 .successpop {
-  display: none ;
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 30px;
