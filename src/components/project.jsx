@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Title from "./title"
-import i1 from "../assetes/amezon.webp"
+import i1 from "../images/E-commerce_thum.png"
 import i2 from "../images/rosewood-theme-img.png"
 const Project = () => {
     return (
@@ -22,9 +22,9 @@ const Project = () => {
                 <div className="project-image-div">
                     <img src={i1} alt="amazon-prime-clone-img" />
                     <div className="project-image-div-details">
-                        <h3>Amazon Prime Clone</h3>
-                        <p>A fully responsive Amazon Prime Clone Website built using HTML, CSS, and JavaScript.</p>
-                        <Link to={"https://pugaleeshwaran.github.io/Amazon_prime_clone/"} target="_blank" ><button>Visit site</button></Link>
+                        <h3>Rabbit – E-Commerce Website</h3>
+                        <p>Built a responsive clothing store by using  React.js, Redux Toolkit, Node.js, Express.js, MongoDB, Tailwind CSS, PayPal.</p>
+                        <Link to={"https://womeniacollection.vercel.app/"} target="_blank" ><button>Visit site</button></Link>
                     </div>
                 </div>
                 <div className="project-more">

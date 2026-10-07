@@ -2,7 +2,6 @@ import Allproject from "./allproject"
 import act from "../images/act.webp"
 import cfc from "../assetes/CFC.webp"
 import home from "../assetes/Home.webp"
-import chatbot from "../images/chatbot.webp"
 import green from "../images/greendan.webp"
 import menstra from "../images/menstra.webp"
 import perfumy from "../images/perfumy.webp"
@@ -10,9 +9,11 @@ import trip from "../images/trip.webp"
 import udemy from "../images/udemy.webp"
 import weather from "../images/weatherapp.png"
 import rosewood from "../images/rosewood-theme-img.png"
+import i1 from "../images/E-commerce_thum.png"
 const Projectlist = () => {
     return (
         <div className="project-list">
+            <Allproject img={i1} h3={"Rabbit – E-Commerce Website"} p={"Built a responsive clothing store by using  React.js, Redux Toolkit, Node.js, Express.js, MongoDB, Tailwind CSS, PayPal."} link={"https://womeniacollection.vercel.app/"} />
             <Allproject img={rosewood} h3={"Rosewood — Bakery & Cake Shop"} p={"A premium, fully responsive bakery website template for bakeries, home bakers, cake studios, and dessert shops."} link={"https://rosewood-bakery-domo.vercel.app/"} />
             <Allproject img={home} h3={"Amazon Prime Clone"} p={"A fully responsive Amazon Prime Clone Website built using HTML, CSS, and JavaScript."} link={"https://pugaleeshwaran.github.io/Amazon_prime_clone/"} />
             <Allproject img={cfc} h3={"TFC Nation"} p={"Fully Responsive Website UI built using HTML, CSS for Restaurants."} link={"https://pugaleeshwaran.github.io/TFC-web-project/"} />
